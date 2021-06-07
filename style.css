@@ -1,0 +1,74 @@
+
+body{
+    background: black;
+}
+  #container {
+
+
+
+
+
+    margin: 0 auto;
+    /* background: #ccc;  */
+    width: 600px;
+    height: 600px;
+
+    display: grid;
+    margin: auto;
+    border: 1px solid red;
+    grid-template-rows: repeat(20, 30px);
+    grid-template-columns: repeat(20, 30px);
+    position: relative;
+    background: rgb(162, 219, 96);
+    
+
+  }
+
+  .snake-box {
+
+    background:linear-gradient(to right, blue, rgba(0, 0, 0, 0.473));
+    border: 1px solid black;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 20%;
+
+
+
+  }
+
+
+  .food {
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+
+    
+
+  }
+
+  #gameOver{
+    position: absolute;
+  }
+
+  header{
+      height: 100px;
+      width: 100px;
+      background:linear-gradient(to right, rgba(0, 0, 255, 0.815),rgba(0, 0, 0, 0.39));
+      position: relative;
+      left: 0;
+      right: 0;
+      color: #eee;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 20%;
+  }
+
+
+  button{
+      width: 100px;
+      font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
